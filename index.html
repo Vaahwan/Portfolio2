@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Rutuj Gopale, portfolio, Rutuj, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Rutuj's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Aahwan Verma</title>
+</head>
+
+
+
+<body oncontextmenu="return false">
+
+
+<header>
+
+
+
+        <a  class="logo"><i class="fa-solid fa-user"></i> Aahwan</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar" id="nav-menu" >
+            <ul>
+            <li ><a class="active" href="#home" class="nav-link home" >Home</a></li>
+            <li><a href="#about"  >About</a></li>
+            <li><a href="#skills" >Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work" class="nav-link projects ">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact" >Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+
+
+
+  <!-- <a class="menu-btn nav-link about"></a>
+  <a  class="menu-btn nav-link skills"></a>
+    <a  class="menu-btn nav-link projects"></a>
+    <a  class="menu-btn nav-link contact"></a>
+  -->
+  
+
+
+<!-- hero section starts -->
+<section class="home" id="home" class="nav-link home">
+    <div id="particles-js"></div>
+
+    <div class="content" style="margin-top: 40px;">
+    <h2>Hi There,<br/> I'm Aahwan <span>Verma</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+   
+        <!-- <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a> -->
+      <div class="resumebtn" style="margin-top: -15px;">
+        <a href="#" id="resume-button-1" class="btn" onclick="downloadAndOpenResume(event)">
+          <span>Resume</span>
+          <a href="https://drive.google.com/file/d/1znydeJV0EeFfpsk5pvb1f0Guhs5ErWf2/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+        </a>
+        </a>
+      </div>
+      
+      
+      
+    
+   
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/aahwan-verma-aa3903241/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/Vaahwan" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/AahwanV" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="mailto:vaahwan@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img style="margin-top: 20px;" class="home-img" draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section  class="about section" id="about" >
+    <h2 class="heading" class="title"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" class="home-img" src="./assets/images/profile3.jpeg" alt="">
+    </div>
+    <div class="content">
+        <h3 id="user-detail-name">I'm Aahwan</h3>
+        <span class="tag">Fullstack Developer</span>
+      
+        <p id="user-detail-intro"
+        >I am a passionate Full Stack Web Developer skilled in the MERN stack, having acquired comprehensive
+         knowledge and expertise through my training at Masai School in Full Stack Web Development.As a 
+           engineering graduate from      
+           Rajiv Gandhi Proudyogiki Vishwavidyalaya, 
+          I have a strong passion for web development and a keen interest in both coding and design.
+          I am a self-motivated and driven individual who is always looking for ways to improve my skills
+           and stay up-to-date with the latest trends in web development. 
+          With my strong technical background and creative mindset, I am confident that 
+          I would be a valuable addition to any team. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> phone : </span> +91 722-4922-831</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> vaahwan@gmail.com</p>
+            </div>
+        </div>
+        
+        <!-- <div class="resumebtn" >
+            <a href="./assets/images/Rutuj Gopale_Resume.pdf"  id="resume-button-2" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div> -->
+        <!-- <div class="resumebtn" >
+          <a href="./assets/images/Rutuj Gopale_Resume.pdf" id="resume-button-2" class="btn" target="_blank" download="Rutuj_Gopale_Resume.pdf">
+              <span  target="_blank">Resume</span>
+              <i class="fas fa-chevron-right" ></i>
+          </a>
+      </div> -->
+      <div class="resumebtn">
+        <a href="https://drive.google.com/file/d/1znydeJV0EeFfpsk5pvb1f0Guhs5ErWf2/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+          <i class="fas fa-chevron-right"></i>
+      </a>
+      </div>
+      
+        
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+
+<section class="skills" id="skills" class="skills-card" >
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container" class="skills-card-img">
+          <div class="row" id="skillsContainer" class="skills-card-name">
+
+           
+
+      </div>
+</div>
+</section>
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/masai.png" alt="">
+        </div>
+        <div class="content">
+        <h3>Full Stack Web Development Course</h3>
+        <p>Masai School | A Nolan Edutech Pvt Ltd Venture | Banglore</p>
+        <h4>Oct 2022 - June 2023 | Completed</h4>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/collage.png" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Engineering in Computers</h3>
+        <p>St. John College Of Enginerring and Management | MU</p>
+        <h4>2017-2021 | Completed</h4>
+        </div>
+    </div>
+
+    
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<!-- style="margin-bottom: -200px;" -->
+
+
+
+
+
+<section class="work" id="work" style="margin-bottom: -200px;" id="projects" class="nav-link projects" >
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <!-- <div class="box-container">
+
+   
+
+</div> -->
+  <div class="for-project"  id="projects">
+ <div class="project-card">
+
+  <img  class="project-image"  alt="overstock app" src="./assets/images/projects/sugar.png"/>
+  <h1 class="project-title">Sugar Cosmetics Website</h1>
+  <h1 class="project-description">This is e commerce website for cosmetics products. It is a collaborative project of 4 members which is completed in 5 days.
+  </h1>
+  <h1 class="project-tech-stack">Techstack : React, Chakra UI, Node, Express, JWT, MongoDB</h1>
+  <a href="https://github.com/Arun-ez/sugar_cosmetics_client" target="_blank" class="project-github-link"> <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>&nbsp;&nbsp;
+  <a href="https://sugarcosmeticsbuy.vercel.app/"  target="_blank" class="project-deployed-link"> <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a>
+
+  
+ </div>
+
+ <div class="project-card">
+  
+  <img class="project-image"  alt="trivago app" src="./assets/images/projects/shop.png"/>
+  <h1 class="project-title">Shop.com Website</h1>
+  <h1 class="project-description">This is e commerce website. It is a collaborative project of 4 members which is completed in 5 days.
+  </h1>
+  <h1 class="project-tech-stack">Techstack : JavaScript, Html, CSS, json server  </h1>
+  <a href="https://github.com/soumyasootar/www.shop.com" target="_blank" class="project-github-link"> <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>&nbsp;&nbsp;
+  <a href="https://inquisitive-phoenix-322695.netlify.app/project.html" target="_blank" class="project-deployed-link"> <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a>
+
+  
+  
+ </div>
+
+ <div class="project-card">
+
+  <img  class="project-image"  alt="overstock app" src="./assets/images/projects/sugar.png"/>
+  <h1 class="project-title">Sugar Cosmetics Backend</h1>
+  <h1 class="project-description">This is backend of sugar cosmetic website.
+  </h1>
+  <h1 class="project-tech-stack">Techstack : Node, Express, MongoDB, JWT</h1>
+  <a href="https://github.com/Vaahwan/sugar_back" target="_blank" class="project-github-link"> <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>&nbsp;&nbsp;
+  <a href="https://sugarcosmeticsbuy.vercel.app/"  target="_blank" class="project-deployed-link"> <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;Live</a>
+
+  
+ </div>
+
+ 
+</div>
+
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+
+<section  class="experience" id="experience" style="background-color: rgb(185, 209, 246)">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Kalvium</h2>
+        </div>
+        <div class="desc">
+            <h3>Technical mentor | Full-Stack developer</h3>
+            <p>Oct 2023 - April 2024</p>
+        </div>
+      </div>
+    </div>
+
+   <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>HindustanTimes Labs</h2>
+        </div>
+        <div class="desc">
+            <h3>React Developer</h3>
+            <p>July 2023 - October 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Continuum global solution</h2>
+        </div>
+        <div class="desc">
+            <h3>Associate-2</h3>
+            <p>Oct 2021 - Oct 2022</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+</div>
+
+</section>
+
+
+
+
+      
+     
+
+<!-- ___________________________________________gittttttt______________________ -->
+
+   
+
+ </section>
+<!-- ______________________________________end-git__________________________________________ -->
+
+<!-- footer section starts -->
+<section class="footer" id="contact">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Aahwan's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website.  <br/> <br/> Keep Rising 🚀. </p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> projects</a>
+          
+      </div>
+
+      <div class="box" class="last"   id="contact" class="nav-link contact">
+          <h3>contact info</h3>
+          <p> <i id="contact-phone" class="fas fa-phone"></i>+91-7224922831</p>
+          <p><a class="dev"  id="contact-email" aria-label="Dev" href="mailto:vaahwan@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>vaahwan@gmail.com</a></p>
+          <p> <i class="fas fa-map-marked-alt"></i>Indore, India-452010</p>
+          <div class="share">
+
+            <li><a  id="contact-linkedin" class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/aahwan-verma-aa3903241/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a  id="contact-github" class="github" aria-label="GitHub" href="https://github.com/Vaahwan" target="_blank"><i class="fab fa-github"></i></a></li>
+         
+          <!-- <li><a class="dev" aria-label="Dev" href="https://leetcode.com/Rutuj_gop/" target="_blank"><i class="fa-solid fa-code"></i></a></li> -->
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">----- Thank You -----</h1>
+
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/d5e11ff79d.js" crossorigin="anonymous"></script>
+<script>GitHubCalendar(".calendar", "rutuj99", { responsive: true });</script>
+
+<!-- _________________________________________x________________________________________ -->
+<script>
+  // Add smooth scrolling to all links
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const target = document.querySelector(this.getAttribute('href'));
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+<!-- __________________________x_____________________________________ -->
+</body>
+</html>
